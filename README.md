@@ -1,7 +1,6 @@
 # Sample locale search using Contextual Search Services API
 
-This sample shows the locale search capability of IBM Watson Content Hub (WCH) contextual search services.  
-This technical sample is intended for developers who want to explore the WCH APIs and the data model.  
+This sample shows the locale search capability of Acoustic Content (formerly Watson Content Hub or WCH) contextual search services. This technical sample is intended for developers who want to explore the Acoustic Content APIs and the data model.  
 
 The sample illustrates:  
 - The use of locale search provided by contextual search services to search for documents in the user's preferred locale.
