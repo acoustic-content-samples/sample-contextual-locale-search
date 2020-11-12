@@ -5,7 +5,7 @@ This sample shows the locale search capability of Acoustic Content (formerly Wat
 The sample illustrates:  
 - The use of locale search provided by contextual search services to search for documents in the user's preferred locale.
 
-### Exploring the Watson Content Hub Locale search API capabilities
+### Exploring the Acoustic Content Locale search API capabilities
 
 The contextual search service provides the functionality to filter search results based on the user's current locale preference. For this feature WCH uses the user's **Accept-Language** header to retrieve the user's preferred language settings and uses these to return relevant locale targeted search results.  
 
@@ -30,18 +30,18 @@ This sample only covers the `accept-language` filter.
 
 #### Prerequisites
 
-- Watson Content Hub account.  
+- Acoustic Content account.  
 
 #### 1. Download the files
 
 Download the project files into any folder on your workstation.  
 
-#### 2. Update the WCH credentials
+#### 2. Update the Acoustic Content credentials
 
 This sample uses a hardcoded base API URL, update this in `/public/wchClient.js` file.    
 
-To set the variables for the base API URL for your tenant, you can obtain the variables Content hub ID and Hostname from the WCH user interface.
-In the IBM Watson Content Hub user interface, open the "Hub information" dialog from the "About" flyout menu in the left navigation pane. A pop-up window displays the items Content hub ID and Hostname.  
+To set the variables for the base API URL for your tenant, you can obtain the variables Content hub ID and Hostname from the Acoustic Content user interface.
+In the Acoustic Content user interface, open the "Hub information" dialog from the "About" flyout menu in the left navigation pane. A pop-up window displays the items Content hub ID and Hostname.  
 
 For example, the base API URL is similar to:  
 const baseTenantUrl = "https://content-eu-4.content-cms.com/api/12345678-9abc-def0-1234-56789abcdef0";
@@ -62,7 +62,7 @@ For running the sample, your tenant would need to have some sample data with loc
 
 This can be done by following the steps outlined here:  
 
-- Log into the Watson Content Hub.  
+- Log into Acoustic Content.  
 
 - Assign languages to the list of allowed content languages. This is the list of languages that a content author can use to assign to a content item. Do this as follow:  
     - Go to Hub set up -> General settings -> Languages  
